@@ -46,6 +46,7 @@
 /* //////////////////////////////////// */
 body {
   background-color: #e7e7e7;
+  color: black;
 }
 .comment-section {
   padding-bottom: 20px;
@@ -98,12 +99,14 @@ body {
   /* margin-left: auto; */
   color: royalblue;
   font-weight: bold;
+  background-color: transparent;
 
   align-items: center;
 }
 .btn-bin {
   display: flex;
   color: #ff3030;
+  background-color: transparent;
   font-weight: bold;
   align-items: center;
   margin-right: 5px;
@@ -158,6 +161,7 @@ body {
 }
 .vote-btn {
   padding: 5px;
+  color: #000;
   background-color: transparent;
   font-size: 18px;
   border: none;
@@ -213,6 +217,8 @@ body {
   padding: 10px;
   font-size: 16px;
   border-radius: 10px;
+  color: #000;
+  background-color: transparent;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
   -ms-border-radius: 10px;
