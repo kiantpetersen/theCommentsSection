@@ -1,0 +1,149 @@
+@media only screen and (max-width: 1200px) {
+  .comment-card {
+    width: 60%;
+  }
+  .replies-box {
+    width: 60%;
+    margin: 0 auto;
+  }
+  .comment-form {
+    /* position: fixed;
+  bottom: 20px; */
+    width: 60%;
+    margin: 20px auto;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .comment-card {
+    width: 75%;
+  }
+  .replies-box {
+    width: 75%;
+    margin: 0 auto;
+  }
+  .comment-form {
+    /* position: fixed;
+  bottom: 20px; */
+    width: 75%;
+    margin: 20px auto;
+  }
+}
+@media only screen and (max-width: 768px) {
+  #root {
+    width: 100%;
+  }
+  .primary-heading {
+    font-size: 42px;
+  }
+  .comments-section {
+    width: 100%;
+  }
+  .comments-container {
+    width: 100%;
+    margin: 0 0;
+  }
+  .comment-card {
+    width: 85%;
+    margin: 10px auto;
+    padding: 10px;
+  }
+  .replies-box {
+    width: 85%;
+    margin: 0 auto;
+  }
+  .comment-form {
+    /* position: fixed;
+  bottom: 20px; */
+    width: 85%;
+    margin: 20px auto;
+    padding: 10px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .comment-text {
+    font-size: 12px;
+  }
+  .comment-content {
+    font-size: 12px;
+  }
+  .user-img-container {
+    height: 30px;
+    width: 30px;
+  }
+  .replies-box {
+    width: 85%;
+    margin: 0 auto;
+  }
+  .replies-box {
+    width: 85%;
+  }
+  .thread {
+    margin: 0 20px 0 20px;
+  }
+
+  .vote-text {
+    margin: 0;
+    font-size: 12px;
+  }
+}
+@media only screen and (max-width: 490px) {
+  .primary-heading {
+    font-size: 32px;
+  }
+  .comment-card {
+    width: 90%;
+    margin: 10px auto;
+    padding: 5px;
+  }
+  .comment-textbox {
+    padding: 0 5px;
+  }
+  .comment-text {
+    font-size: 10px;
+    padding: 5px;
+  }
+
+  .comment-content {
+    font-size: 10px;
+  }
+  .comment-time {
+    font-size: 10px;
+  }
+  .user-img-container {
+    height: 20px;
+    width: 20px;
+  }
+  .comment-form {
+    padding: 5px;
+    width: 90%;
+  }
+  .comment-input {
+    font-size: 10px;
+    height: 50px;
+    width: 70%;
+    padding: 5px;
+  }
+  .vote-container {
+    padding: 0 5px;
+  }
+  .vote-text {
+    padding: 0;
+  }
+  .vote-number {
+    font-size: 10px;
+  }
+  .btn-submit {
+    font-size: 10px;
+    padding: px 5px;
+    height: fit-content;
+    width: 20%;
+  }
+}
+@media only screen and (max-width: 380px) {
+  .comment-time {
+    font-size: 8px;
+  }
+  .thread {
+    margin: 0 10px 0 10px;
+  }
+}
